@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+/>
+
+  <link rel="stylesheet" href="style.css">
+
+
+<title>WeLikeFood</title>
+</head>
+<body>
+
+<div class="container" >
+  <div class="galle" style="margin:20px; display:flex; margin-bottom:-25px">
+    <a href="" class="navbar-brand">
+      <img src="images/Microsoft.jpg" alt="logo" width="120px" height="" style="margin-left:-80px; margin-top:-15px;">
+    </a>
+    <input type="search" name="search" class="search" value="nourriture" id="" style="width:600px; height:50px;margin-right:160px;margin-left:50px;border: 3px solid white; border-radius:20px;box-shadow:2px 2px 2px 2px rgb(229,226,226); " >
+    <div class="iconVoix">
+       <a href=""><div>
+        <span class="iconify" style="color:cornflowerblue ;" data-icon="ic:outline-keyboard-voice"></span>
+        </div></a> 
+      <a href="">
+      <div><span class="iconify" style="color:cornflowerblue ;" data-icon="fluent:search-visual-20-filled"></span> </div></a>
+      <a href=""><div>  <span class="iconify" style="color:cornflowerblue ;" data-icon="radix-icons:magnifying-glass"></span></div></a>
+    </div>
+  
+    <div class="espace" style="margin-top:2px;"> <button type="submit"  style="height:40px; width:100px;">Connexion</button></div>
+    <div class="espace">
+   
+   <!-- menu hamburger -->
+  
+   <a href="#" id="openBtn">
+    <span class="burger-icon">
+      <span></span>
+      <span></span>
+      <span></span>
+    </span>
+  </a>
+  <!-- fin menu hamburger -->
+    </div>
+   
+    </div>
+                                                                                  
+    <nav class="navbar" style="margin-bottom:-10px ;">
+      
+    <ul class="nav navbar-nav">
+      <li class="haut"><a href="#"class="menus" style="margin-left:180px;">TOUT</a></li>
+      <li class="haut"><a href="#" class="menus">VIDEOS</a></li>
+      <li class="haut"><a href="#" class="menus" id="seul">IMAGES</a></li>
+      <li class="haut"><a href="#" class="menus">CARTES</a></li>
+      <li class="haut"><a href="#" class="menus">ACTUALITES</a></li>
+
+    </ul>
+    
+     <ul class="nav navbar-nav navbar-right">
+      <li><a href="#" class="menus" style="margin-right:40px ; " id="filtre">Filtre <span class="iconify" data-icon="carbon:filter"></span></a></li>
+       </ul>
+    <ul class="nav navbar-nav navbar-right">
+    <li class="dropdown">
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#"><strong class="menuss">Modéré</strong>
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Stricte</a></li>
+          <li><a href="#">Modéré(par défaut)</a></li>
+          <li><a href="#">Désactivé</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#"><strong class="menuss">Automatique</strong>
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Afficher</a></li>
+          <li><a href="#">Masquer</a></li>
+          <li><a href="#">Automatique</a></li>
+        </ul>
+      </li>
+    </ul> 
+    
+</nav>
+<p id="montrait"></p>
+<div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    <div class="gallery swiper-slide"><img src="images/Nouveau dossier/th-removebg-preview.png" alt="" class="formImage" width="30px" height="30px"><p>Nourriture <br> <strong>Chat</strong></p></div>
+    <div class="gallery swiper-slide"><img src="images/Nouveau dossier/th (1).jpg" alt="" class="formImage" width="30px" height="30px"><p><strong>Bonne</strong> <br> Nourriture </p></div>
+    <div class="gallery swiper-slide"><img src="images/Nouveau dossier/th.jpg" alt="" class="formImage" width="30px" height="30px"><p>Nourriture <br> <strong>Fast Food</strong></p></div>
+    <div class="gallery swiper-slide"><img src="images/Nouveau dossier/th (3).jpg" alt="" class="formImage" width="30px" height="30px"><p><strong>Italie</strong> <br> Nourriture </p></div>
+    <div class="gallery swiper-slide"><img src="images/Nouveau dossier/th (4).jpg" alt="" class="formImage" width="30px" height="30px"><p>Nourriture <br> <strong>Du Monde</strong></p></div>
+    <div class="gallery swiper-slide"><img src="images/Nouveau dossier/th (5).jpg" alt="" class="formImage" width="30px" height="30px"><p>Nourriture <br> <strong>Chien</strong></p></div>
+    <div class="gallery swiper-slide"><img src="images/Nouveau dossier/th (17).jpg" alt="" class="formImage" width="30px" height="30px"><p>Nourriture <br> <strong>PNG</strong></p></div>
+    <div class="gallery swiper-slide"><img src="images/Nouveau dossier/télécharger (25).jpg" alt="" class="formImage" width="30px" height="30px"><p>Nourriture <br> <strong>Espagnol</strong></p></div>
+    <div class="gallery swiper-slide"><img src="images/Nouveau dossier/télécharger28.jpg" alt="" class="formImage" width="30px" height="30px"><p>Nourriture <br> <strong>Belge</strong></p></div>
+    <div class="gallery swiper-slide"><img src="images/Nouveau dossier/télécharger (12).jpg" alt="" class="formImage" width="30px" height="30px"><p>Nourriture <br> <strong>Allemande</strong></p></div>
+    <div class="gallery swiper-slide"><img src="images/Nouveau dossier/télécharger (24).jpg" alt="" class="formImage" width="30px" height="30px"><p>Nourriture <br> <strong>Georgiens</strong></p></div>
+    <div class="gallery swiper-slide"><img src="images/Nouveau dossier/télécharger28.jpg" alt="" class="formImage" width="30px" height="30px"><p>Nourriture <br> <strong>Anglaise</strong></p></div>
+    <div class="gallery swiper-slide"><img src="images/Nouveau dossier/télécharger (21).jpg" alt="" class="formImage" width="30px" height="30px"><p>Nourriture <br> <strong>Turc</strong></p></div>
+    <div class="gallery swiper-slide"><img src="images/Nouveau dossier/th (8).jpg" alt="" class="formImage" width="30px" height="30px"><p>Nourriture <br> <strong>Belge</strong></p></div>
+  </div>
+  <div class="swiper-button-next" style="color: black;"></div>
+  <div class="swiper-button-prev" style="color: black;"></div>
+</div>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<!-- Scrollons en swipp -->
+<script src="scroll.js"></script>
+
+
+  <br>
+<!-- Centre de la page -->
+<div style="margin-top:30px ;"></div>
+    <div class="col-md-3 example">
+      <div class="thumbnail projet" style="width:100%">
+         <a href="images/télécharger (0).jpg" target=""> 
+          <img src="images/télécharger (0).jpg" alt="Plat1" style="width:100%; height:173px;">
+          <div class="caption">
+            <p class="sligne">Wallpapers Nourriture Allemande - MaximumWall</p>
+            <div class="tail"><p class="text"><strong>1200 x 800 -jpg<br>maximumWall.com</strong></p></div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="thumbnail projet" style="width:280px">
+       <a href="images/télécharger (1).jpg" target="">
+          <img src="images/télécharger (1).jpg" alt="Plat2" style="width:100%; height:173px;">
+          <div class="caption">
+            <p class="sligne">Télécharger fonds d'écran nourriture gratuitement</p>
+            <span class="tail"><p class="text"><strong>1200 x 800 -jpg<br>maximumWall.com</strong></p></span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="thumbnail projet">
+         <a href="images/télécharger (2).jpg" target="">
+          <img src="images/télécharger (2).jpg" alt="Plat3" style="width:100%; height:173px;">
+          <div class="caption">
+            <p class="sligne">La nourriture bio, bonne pour la santé? - Pieuvre.ca</p>
+            <span class="tail"><p class="text"><strong>1200 x 800 -jpg<br>maximumWall.com</strong></p></span>
+          </div>
+        </a>
+      </div>
+    </div>
+<!-- FIN -->
+    <div class="col-md-3">
+      <div class="thumbnail projet">
+         <a href="images/télécharger (3).jpg" target="">
+          <img src="images/télécharger (3).jpg" alt="Plat4" style="width:100%; height:173px;">
+          <div class="caption">
+            <p class="sligne">J’ai mangé de la nourriture pour
+animaux - URBANIA</p>
+<span class="taill"><p class="text" ><strong>1200 x 800 -jpg<br>maximumWall.com</strong></p></span>
+          </div>
+        </a>
+      </div>
+
+    <!-- fin -->
+<section>
+  <section>
+  </div>
+
+  <div class="col-md-3">
+      <div class="thumbnail projet">
+        <a href="images/télécharger (4).jpg" target="">
+          <img src="images/télécharger (4).jpg" alt="Plat4" style="width:100%; height:173px;">
+          <div class="caption">
+            <p class="sligne">Télécharger fonds d'écran
+nourriture gratuitement</p>
+<span class="tail"><p class="text"><strong>1200 x 800 -jpg<br>maximumWall.com</strong></p></span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- fin -->
+
+    <div class="col-md-3">
+      <div class="thumbnail projet">
+         <a href="images/télécharger (5).jpg" target="">
+          <img src="images/télécharger (5).jpg" alt="Plat4" style="width:100%; height:173px;">
+          <div class="caption">
+            <p class="sligne">Aliments nourriture assortis en lot
+de 48 en Plastique soufflé ...</p>
+<span class="tail"><p class="text"><strong>1200 x 800 -jpg<br>maximumWall.com</strong></p></span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- fin -->
+
+
+    <div class="col-md-3">
+      <div class="thumbnail projet">
+        <a href="images/télécharger (6).jpg" target="">
+          <img src="images/télécharger (6).jpg" alt="Plat4" style="width:100%; height:190px;">
+          <div class="caption">
+            <p class="sligne">Nourriture - Page 29</p>
+            <span class="tail"><p class="text"><strong>1200 x 800 -jpg<br>maximumWall.com</strong></p></span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- fin -->
+
+    <div class="col-md-3">
+      <div class="thumbnail delice projet">
+      <a href="images/télécharger (7).jpg" target=""> 
+          <img src="images/télécharger (7).jpg" alt="Plat4" style="width:100%; height:173px;">
+          <div class="caption">
+            <p class="sligne">Délices culinaires - la nourriture
+asiatique en 80 photos délicie..          </p>
+ <span class="taill"><p class="text"><strong>1200 x 800 -jpg<br>maximumWall.com</strong></p></span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- fin -->
+    <div class="col-md-3">
+      <div class="thumbnail projet">
+       <a href="images/télécharger (8).jpg" target="">
+          <img src="images/télécharger (8).jpg" alt="Plat4" style="width:100%; height:173px;">
+          <div class="caption">
+            <p class="sligne">Télécharger fonds d'écran
+nourriture gratuitement</p>
+<span class="tail"><p class="text"><strong>1200 x 800 -jpg<br>maximumWall.com</strong></p></span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- fin -->
+
+    <div class="col-md-3">
+      <div class="thumbnail projet">
+       <a href="images/télécharger (9).jpg" target="">
+          <img src="images/télécharger (9).jpg" alt="Plat4" style="width:100%; height:173px;">
+          <div class="caption">
+            <p>Nourriture déshydratée : Quels
+avantages ? - Devenir survialiste</p>
+<span class="tail"><p class="text"><strong>1200 x 800 -jpg<br>maximumWall.com</strong></p></span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- fin -->
+    <div class="col-md-3">
+      <div class="thumbnail projet">
+        <a href="images/télécharger (10).jpg" target="">
+          <img src="images/télécharger (10).jpg" alt="Plat4" style="width:100%; height:190px;">
+          <div class="caption">
+            <p class="sligne">Wanderlust: La Nourriture</p>
+            <span class="tail"><p class="text"><strong>1200 x 800 -jpg<br>maximumWall.com</strong></p></span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- fin -->
+    <div class="col-md-3">
+      <div class="thumbnail projet">
+       <a href="images/télécharger (11).jpg" target="">
+          <img src="images/télécharger (11).jpg" alt="Plat4" style="width:100%; height:173px;">
+          <div class="caption">
+            <p class="sligne">Respirer de la nourriture peut-il vous
+faire prendre du poids? | Slate.fr</p>
+ <span class="taill"><p class="text"><strong>1200 x 800 -jpg<br>maximumWall.com</strong></p></span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- fin -->
+
+    <div class="col-md-3">
+      <div class="thumbnail delice projet">
+        <a href="images/télécharger (12).jpg" target="">
+          <img src="images/télécharger (12).jpg" alt="Plat4" style="width:100%; height:173px;">
+          <div class="caption">
+            <p class="sligne">Pourquoi on aime tant la nourriture
+ américaine ? - Charliebirdy</p>
+ <span class="tail"><p class="text"><strong>1200 x 800 -jpg<br>maximumWall.com</strong></p></span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- fin -->
+    <div class="col-md-3">
+      <div class="thumbnail projet">
+       <a href="images/télécharger (13).jpg" target="">
+          <img src="images/télécharger (13).jpg" alt="Plat4" style="width:100%; height:173px;">
+          <div class="caption">
+            <p class="sligne">Wallpapers Nourriture Sushi -
+MaximumWall</p>
+<span class="tail"><p class="text"><strong>1200 x 800 -jpg<br>maximumWall.com</strong></p></span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- fin -->
+    <div class="col-md-3">
+      <div class="thumbnail projet">
+        <a href="images/télécharger (14).jpg" target="">
+          <img src="images/télécharger (14).jpg" alt="Plat4" style="width:100%; height:173px;">
+          <div class="caption">
+            <p class="sligne">Rêve de Nourriture - La Voix des
+Rêves</p>
+<span class="tail"><p class="text"><strong>1200 x 800 -jpg<br>maximumWall.com</strong></p></span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- fin -->
+    <div class="col-md-3">
+      <div class="thumbnail projet">
+        <a href="images/télécharger (15).jpg" target="">
+          <img src="images/télécharger (15).jpg" alt="Plat4" style="width:100%; height:173px;">
+          <div class="caption">
+            <p class="sligne">Gaspillage alimentaire : 66 tonnes
+de nourriture jetées par seconde</p>
+<span class="taill"><p class="text"><strong>1200 x 800 -jpg<br>maximumWall.com</strong></p></span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- fin -->
+    <div class="col-md-3">
+      <div class="thumbnail projet">
+         <a href="images/télécharger (16).jpg" target="">
+          <img src="images/télécharger (16).jpg" alt="Plat4" style="width:100%; height:173px;">
+          <div class="caption">
+            <p class="sligne">Bon appétit - Nourriture - Crevette
+- Citrons - Wallpaper - Free</p>
+<span class="tail"><p class="text"><strong>1200 x 800 -jpg<br>maximumWall.com</strong></p></span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- fin -->
+    <div class="col-md-3">
+      <div class="thumbnail projet">
+         <a href="images/télécharger (17).jpg" target="">
+          <img src="images/télécharger (17).jpg" alt="Plat4" style="width:100%; height:173px;">
+          <div class="caption">
+            <p class="sligne">Aliments nourriture assortis en lot
+de 24 en Plastique soufflé.</p>
+<span class="tail"><p class="text"><strong>1200 x 800 -jpg<br>maximumWall.com</strong></p></span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- fin -->
+    <div class="col-md-3">
+      <div class="thumbnail delices projet">
+        <a href="images/télécharger (18).jpg" target="">
+          <img src="images/télécharger (18).jpg" alt="Plat4" style="width:100%; height:190px;">
+          <div class="caption">
+            <p class="sligne">Nourriture - Page 30</p>
+            <span class="tail"><p class="text"><strong>1200 x 800 -jpg<br>maximumWall.com</strong></p></span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- fin -->
+    <div class="col-md-3">
+      <div class="thumbnail delices projet">
+       <a href="images/télécharger (19).jpg" target=""> 
+          <img src="images/télécharger (19).jpg" alt="Plat4" style="width:100%; height:173px;">
+          <div class="caption">
+            <p class="sligne">Wallpapers Nourriture Francaise -
+MaximumWall</p>
+<span class="tail"><p class="text"><strong>1200 x 800 -jpg<br>maximumWall.com</strong></p></span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- fin -->
+  </section>
+      <p style="margin-left:30px ;" class="rech">Affiner votre recherche pour nourriture</p>
+     
+    <div class="col-md-3" >
+      <div class="thumbnail projet" >
+         <a href="images/Nouveau dossier/th (6).jpg" target="">
+          <img src="images/Nouveau dossier/th (6).jpg" alt="Plat4" style="width:100%; height:173px;">
+          <div class="caption">
+            <p class="sligne">Française</p>
+            <span class="tail"><p class="text"><strong>1200 x 800 -jpg<br>maximumWall.com</strong></p></span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- fin -->
+    <div class="col-md-3">
+      <div class="thumbnail projet">
+       <a href="images/Nouveau dossier/th (7).jpg" target="">
+          <img src="images/Nouveau dossier/th (7).jpg" alt="Plat4" style="width:100%; height:173px;">
+          <div class="caption">
+            <p class="sligne">Bebe</p>
+            <span class="tail"><p class="text"><strong>1200 x 800 -jpg<br>maximumWall.com</strong></p></span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- fin -->
+    <div class="col-md-3">
+      <div class="thumbnail projet">
+        <a href="images/Nouveau dossier/th (8).jpg" target="">
+          <img src="images/Nouveau dossier/th (8).jpg" alt="Plat4" style="width:100%; height:173px;">
+          <div class="caption">
+            <p class="sligne">Africaines</p>
+            <span class="tail"><p class="text"><strong>1200 x 800 -jpg<br>maximumWall.com</strong></p></span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- fin -->
+    <div class="col-md-3">
+      <div class="thumbnail projet">
+       <a href="images/Nouveau dossier/th (9).jpg" target="">
+          <img src="images/Nouveau dossier/th (9).jpg" alt="Plat4" style="width:100%; height:173px;">
+          <div class="caption">
+            <p class="sligne">Chinois</p>
+            <span class="tail"><p class="text"><strong>1200 x 800 -jpg<br>maximumWall.com</strong></p></span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- fin -->
+
+    <p style="margin-left:30px ;" class="rech">Explorer des recherches supplémentaires similaires à nourriture</p>
+
+    <div class="col-md-3" >
+      <div class="thumbnail projet" >
+       <a href="images/Nouveau dossier/th (10).jpg" target="">
+          <img src="images/Nouveau dossier/th (10).jpg" alt="Plat4" style="width:100%; height:173px;">
+          <div class="caption">
+            <p class="sligne">Et boisson</p>
+            <span class="tail"><p class="text"><strong>1200 x 800 -jpg<br>maximumWall.com</strong></p></span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- fin -->
+    <div class="col-md-3">
+      <div class="thumbnail projet">
+        <a href="images/Nouveau dossier/th (12).jpg" target="">
+          <img src="images/Nouveau dossier/th (12).jpg" alt="Plat4" style="width:100%; height:173px;">
+          <div class="caption">
+            <p class="sligne">Fruit</p>
+            <span class="tail"><p class="text"><strong>1200 x 800 -jpg<br>maximumWall.com</strong></p></span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- fin -->
+    <div class="col-md-3">
+      <div class="thumbnail projet">
+        <a href="images/Nouveau dossier/th (13).jpg" target="">
+          <img src="images/Nouveau dossier/th (13).jpg" alt="Plat4" style="width:100%; height:173px;">
+          <div class="caption">
+            <p class="sligne">Sucre</p>
+            <span class="tail"><p class="text"><strong>1200 x 800 -jpg<br>maximumWall.com</strong></p></span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- fin -->
+    <div class="col-md-3">
+      <div class="thumbnail projet">
+       <a href="images/Nouveau dossier/th (15).jpg" target="">
+          <img src="images/Nouveau dossier/th (15).jpg" alt="Plat4" style="width:100%; height:173px;">
+          <div class="caption">
+            <p class="sligne">buffet</p>
+            <span class="tail"><p class="text"><strong>1200 x 800 -jpg<br>maximumWall.com</strong></p></span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- fin -->
+  </section>
+  
+</div>
+</div>
+</div>
+
+</body>
+</html>
